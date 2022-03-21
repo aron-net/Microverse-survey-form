@@ -40,11 +40,11 @@ body::before {
 }
 
 .form-container {
-    background-color: blueviolet;
     position: relative;
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100%;
 }
 
 .form-group {
@@ -52,7 +52,9 @@ body::before {
     background-color: rgb(77, 77, 112);
     border-radius: 1px;
     width: 100%;
-    height: 100%;
+    margin-left: 12px;
+    color: white;
+
 }
 
 label {
@@ -78,12 +80,32 @@ textarea {
     border: 2px solid white;
     border-radius: 5px;
     width: 90%;
-    margin-left: 30px;
+    margin-left: 15px;
     height: 30px;
     
 }
-
+.input-textarea{
+  border-radius: 5px;
+  border:2p solid white;
+  width: 80%;
+  height: 80px;
+  margin-bottom :5px;
+  margin-left: 15px;
+ 
+}
 button {
+  border-radius: 5px;
+  border:2p solid white;
+  width: 80%;
+  background-color: green;
+  margin-left: 15px;
+  margin-bottom :25px;
   border: none;
+  color: white;
+  height: 50px;
+  margin-top: 12px;
+}
+.any-sug {
+  margin-left: 15px;
 }
 
